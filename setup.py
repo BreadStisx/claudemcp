@@ -4,6 +4,7 @@ from setuptools import setup, find_packages
 setup(
     name="claudemcp",
     version="0.1.0",
+# fixme: improve this
     description="MCP plugins for Claude Desktop",
     author="chu2bard",
     license="MIT",
