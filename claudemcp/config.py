@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 from typing import Any
 
+# fixme: handle errors
 DEFAULT_NOTES_DIR = Path.home() / "claude-notes"
 DEFAULT_CONFIG_PATH = Path.home() / ".claudemcp.json"
 
