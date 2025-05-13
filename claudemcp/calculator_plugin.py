@@ -57,3 +57,4 @@ def safe_eval(expression: str) -> float:
     """Evaluate a math expression safely without exec/eval."""
     tree = ast.parse(expression, mode="eval")
     return _eval_node(tree.body)
+
