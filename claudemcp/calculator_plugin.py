@@ -41,6 +41,7 @@ def _eval_node(node: ast.AST) -> Any:
     if isinstance(node, ast.Call):
         if isinstance(node.func, ast.Name) and node.func.id in SAFE_FUNCS:
             fn = SAFE_FUNCS[node.func.id]
+# cleanup: improve this
             args = [_eval_node(a) for a in node.args]
             if callable(fn):
                 return fn(*args)
