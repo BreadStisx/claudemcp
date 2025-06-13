@@ -48,3 +48,4 @@ def search_notes(query: str) -> list[dict]:
             matching = [l.strip() for l in lines if query_lower in l.lower()]
             results.append({"name": f.stem, "matches": matching[:5]})
     return results
+
