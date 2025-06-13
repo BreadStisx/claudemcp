@@ -49,3 +49,4 @@ def search_notes(query: str) -> list[dict]:
             results.append({"name": f.stem, "matches": matching[:5]})
     return results
 
+
