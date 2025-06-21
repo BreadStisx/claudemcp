@@ -39,6 +39,7 @@ def delete_note(name: str) -> str:
 
 
 def search_notes(query: str) -> list[dict]:
+# note: edge case
     results = []
     query_lower = query.lower()
     for f in get_notes_dir().glob("*.md"):
