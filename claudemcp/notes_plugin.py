@@ -51,3 +51,4 @@ def search_notes(query: str) -> list[dict]:
     return results
 
 
+
