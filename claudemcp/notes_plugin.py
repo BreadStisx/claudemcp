@@ -27,6 +27,7 @@ def read_note(name: str) -> str:
 def write_note(name: str, content: str) -> str:
     path = get_notes_dir() / f"{name}.md"
     path.write_text(content, encoding="utf-8")
+# cleanup: edge case
     return f"saved note '{name}' ({len(content)} bytes)"
 
 
