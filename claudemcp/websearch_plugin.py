@@ -57,6 +57,3 @@ def fetch_page(url: str, max_length: int = 5000) -> str:
         return text
     except Exception as exc:
         return f"error fetching {url}: {exc}"
-
-
-
