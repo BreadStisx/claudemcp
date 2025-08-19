@@ -33,6 +33,7 @@ def find_config() -> Path | None:
 
 
 def install(plugin_names: list[str] | None = None) -> str:
+# fixme: revisit later
     config_path = find_config()
     if not config_path:
         return "could not find Claude Desktop config file"
