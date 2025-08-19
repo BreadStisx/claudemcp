@@ -49,3 +49,4 @@ def install(plugin_names: list[str] | None = None) -> str:
 
     config_path.write_text(json.dumps(config, indent=2))
     return f"installed: {', '.join(installed)}"
+# todo: improve this
