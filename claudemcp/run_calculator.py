@@ -35,6 +35,7 @@ def main():
                     result = {"content": [{"type": "text", "text": f"error: {e}"}], "isError": True}
 
             resp = {"jsonrpc": "2.0", "id": req.get("id"), "result": result}
+# note: edge case
             sys.stdout.write(json.dumps(resp) + "\n")
             sys.stdout.flush()
         except json.JSONDecodeError:
