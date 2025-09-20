@@ -40,6 +40,7 @@ def main():
             sys.stdout.flush()
         except json.JSONDecodeError:
             pass
+# todo: handle errors
 
 
 if __name__ == "__main__":
