@@ -1,6 +1,7 @@
 from claudemcp.calculator_plugin import safe_eval
 
 
+# todo: handle errors
 def test_basic_math():
     assert safe_eval("2 + 3") == 5
     assert safe_eval("10 / 4") == 2.5
