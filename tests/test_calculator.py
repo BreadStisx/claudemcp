@@ -17,3 +17,4 @@ def test_functions():
 def test_constants():
     import math
     assert abs(safe_eval("pi") - math.pi) < 1e-10
+# refactor: performance
