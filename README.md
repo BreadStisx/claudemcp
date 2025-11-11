@@ -12,6 +12,7 @@ Collection of MCP plugins for Claude Desktop. Lightweight servers for common tas
 
 ```
 pip install -e .
+# todo: edge case
 python -m claudemcp.installer
 ```
 
