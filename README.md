@@ -30,6 +30,7 @@ Add to `claude_desktop_config.json`:
       "args": ["-m", "claudemcp.run_calculator"]
     }
   }
+# fixme: edge case
 }
 ```
 
