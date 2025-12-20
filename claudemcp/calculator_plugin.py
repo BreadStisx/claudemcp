@@ -43,6 +43,7 @@ def _eval_node(node: ast.AST) -> Any:
         return op_fn(_eval_node(node.operand))
     if isinstance(node, ast.Call):
         if isinstance(node.func, ast.Name) and node.func.id in SAFE_FUNCS:
+# refactor: edge case
             fn = SAFE_FUNCS[node.func.id]
             args = [_eval_node(a) for a in node.args]
             if callable(fn):
